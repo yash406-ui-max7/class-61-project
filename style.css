@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #000000;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#3333ff 0%, #ff0066 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Train One', cursive;
+}
+
+#bio {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 200px;
+    margin: 8px auto;
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.menu {
+    width: 100%;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 10;
+    background: white;
+    margin-top: 0px;
+    top: 0px;
+}
+
+.links {
+     padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background: linear-gradient(#ffa500 0%, #ff00ff 100%);
+    font-size: 25px;
+    text-decoration: underline;
+    color: deeppink;
+    font-family: fantasy;
+}
+
+#inspiration {
+    background: linear-gradient(#009900 0%, #ff6600 100%);
+}
+
+#book {
+    background: linear-gradient(#ffff66 0%, #ff66ff 100%);
+}
+
+.picture.hover {
+    color: purple;
+}
+
+#player {
+    background: linear-gradient(#ff0000 0%, #800080 100%);
+}
+
+img {
+    width: 300px;
+    border-radius: 5px;
+    transition: transform .20;
+}
+
+img:hover {
+    border-radius: 4px soild black;
+    transform: scale(0.9);
+}
+
+#contact {
+    background: linear-gradient(#90ee90 0%, #ff00ff 100%);
+}
+
+h3 {
+    color: red;
+    text-shadow: pink;
+    font-size: 25px;
+}
+.contact_1 a {
+    color: aliceblue;
+    text-shadow: none;
+}
+
